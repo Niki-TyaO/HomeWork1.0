@@ -1,5 +1,3 @@
-recipient = ''
-message = ''
 def send_mail(recipient, messege, sender ='university.help@gmail.com'):
     if '@' not in recipient:
         checker = False
